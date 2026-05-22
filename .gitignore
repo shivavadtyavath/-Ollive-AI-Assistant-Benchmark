@@ -1,0 +1,33 @@
+# ── Secrets (NEVER commit) ────────────────────────────────
+.env
+*.env
+.streamlit/secrets.toml
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# ── Runtime / generated data ──────────────────────────────
+observability/traces.jsonl
+
+# ── HuggingFace Space clone (separate repo) ───────────────
+ollive-oss-assistant/
+
+# ── Original assignment PDF ───────────────────────────────
+Founding AI-ML Engineer.pdf
+
+# ── OS ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ───────────────────────────────────────────────────
+.vscode/
+.idea/

@@ -1,0 +1,35 @@
+# Core UI
+streamlit>=1.32.0
+
+# OSS Model - HuggingFace Inference API (free tier)
+huggingface-hub>=0.21.0
+transformers>=4.40.0
+
+# Frontier Model - Groq API (free tier, fastest LLM inference)
+groq>=0.5.0
+
+# Memory - Vector store
+chromadb>=0.4.24
+sentence-transformers>=2.7.0
+
+# Observability (free tier)
+langsmith>=0.1.0
+
+# Evaluation & Reporting
+pandas>=2.2.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.20.0
+numpy>=1.26.0
+
+# Guardrails
+better-profanity>=0.7.0
+
+# Tools / Utilities
+requests>=2.31.0
+python-dotenv>=1.0.0
+tenacity>=8.2.3
+rich>=13.7.0
+pydantic>=2.6.0
+wikipedia>=1.4.0
+duckduckgo-search>=5.3.0
